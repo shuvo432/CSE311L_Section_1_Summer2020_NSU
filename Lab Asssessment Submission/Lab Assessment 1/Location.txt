@@ -1,0 +1,14 @@
+CREATE TABLE Location(
+Location_id int(4) NOT NULL,
+Street_Address varchar(20),
+Postal_code varchar(12),
+City varchar(30) NOT NULL,
+State_Province varchar(25),
+Country_Id varchar(2))
+
+INSERT INTO location VALUES
+(1400,'2014 Jabberwocky Rd',26192,'Southlake','Texas','US'),
+(1500,'2011 inteiors Blvs',99236,'South San Francisco','California','Us'),
+(1700,'2004 Charade Rd',98199,'Seattle','Washington','Us'),
+(1800,'460 Bloor St. W.',123456,'Toronto','Ontario','CA'),
+(2500,'Magdalen Centre',12546,'Oxford','Oxford','Uk')
