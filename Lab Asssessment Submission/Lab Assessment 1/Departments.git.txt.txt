@@ -1,0 +1,15 @@
+CREATE TABLE Departments(
+Department_Id int(4),
+Detp_Name VARCHAR(20) NOT NULL,
+Manager_Id int(6),
+Location_id int(6))
+
+INSERT INTO departments VALUES
+(10,'Admin',200,1700),
+(20,'Marketing',201,1800),
+(50,'Shipping',124,1500),
+(60,'IT',103,1400),
+(80,'Sales',149,2500),
+(90,'executive',100,1700),
+(110,'Acc',205,1700),
+(190,'Contracting',NULL,1700)
