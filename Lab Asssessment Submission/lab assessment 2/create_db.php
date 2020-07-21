@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('localhost','root','asddsa');
+$link = mysqli_connect('localhost','root','password');
 if($link == false)
 {
     die("Error: could not connect." .mysqli_connect_error());
