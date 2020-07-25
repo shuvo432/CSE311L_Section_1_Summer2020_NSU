@@ -1,0 +1,4 @@
+SELECT Last_Name,Department_Id
+FROM employee 
+WHERE Department_Id = 20 AND Department_Id = 50
+ORDER BY Last_Name
