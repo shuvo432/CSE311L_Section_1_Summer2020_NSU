@@ -1,0 +1,11 @@
+1.SELECT e.LAST_NAME,d.Detp_Name,d.Department_Id FROM employee e Join departments d ON e.Department_Id = d.Department_Id
+
+2.SELECT e.Last_name, d.Detp_Name, d.Location_Id FROM employee e, departments d WHERE e.Department_Id = d.Department_Id
+
+3.SELECT e.Last_Name,e.Job_Id,e.Department_Id,d.Detp_Name,l.location
+from employee e
+join departments d
+ON (e.department_id = d.department_id)
+JOIN location l ON 
+(d.Location_id = l.Location_id) 
+WHERE LOWER(l.city) = 'Toronto'
