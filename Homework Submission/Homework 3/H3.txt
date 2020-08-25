@@ -1,0 +1,24 @@
+1.
+SELECT Last_Name,Salary as "Daily Salary",Department_Id
+from employee
+
+2.
+SELECT Last_Name||', '||Job_Id as "Employee and Title"
+FROM employee
+
+3.
+SELECT Last_Name,Job_Id,Hire_Date
+FROM employee
+where Hire_Date BETWEEN '1998-02-20' AND '1998-05-01'
+ORDER BY Hire_Date ASC
+
+4.
+SELECT last_name,Hire_Date, department_id
+FROM employee
+WHERE department_id IN (20, 50) 
+ORDER BY Hire_Date
+
+5.
+SELECT Last_Name,Hire_Date
+FROM employee
+WHERE hire_date >= '1994-01-01' and hire_date < '1995-01-01'
